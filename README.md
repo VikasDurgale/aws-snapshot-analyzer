@@ -16,3 +16,8 @@ snapshot uses the configuration file created by aws cli. e.g.
 *command* is instances, volumes or snapshots
 *subcommand* depends on command
 *project* is optional
+
+##Build project
+pipenv run python setup.py bdist_wheel
+
+bdist_wheel gives you an archive file which can be used to install project anywhere
